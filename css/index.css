@@ -1,0 +1,33 @@
+body {
+  background: url(../media/bgnd-index.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+}
+/* Main */
+main h3 {
+  background: rgba(0, 0, 0, 0.35);
+  width: max-content;
+  transition: all 0.3s linear;
+}
+main h3:hover {
+  transform: scale(0.99);
+}
+main a.btn {
+  transition: all 0.2s linear;
+}
+main a.btn:hover {
+  color: var(--red) !important;
+  background: var(--dark) !important;
+}
+/* Media queries */
+@media(min-width: 1921px) {
+  main h3 {
+    font-size: 3.5rem;
+  }
+}
+@media(max-width: 576px) {
+  main h3 {
+    font-size: 1.7rem;
+  }
+}

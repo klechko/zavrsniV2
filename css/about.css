@@ -1,0 +1,61 @@
+/* Hello */
+#hello img {
+  min-height: 100vh;
+  object-fit: cover;
+}
+/* Cameras */
+#cameras .tab-content img {
+  min-height: 60vh;
+  max-height: 75vh;
+  width: 100%;
+  object-fit: cover;
+}
+#cameras .nav-pills a.active {
+  background-color: var(--red) !important;
+  color: #fff !important;
+}
+#cameras .nav-pills a {
+  color: var(--red);
+}
+#cameras .tab-content p {
+  font-size: 1.15rem;
+}
+/* Discover My World */
+#discover .carousel-item img {
+  min-height: 65vh;
+  max-height: 95vh;
+  width: 100%;
+  object-fit: cover;
+}
+#discover .carousel-item .carousel-caption h4,
+#discover .carousel-item .carousel-caption p {
+  background: rgba(0, 0, 0, 0.7);
+  width: max-content;
+  padding: 10px;
+  color: var(--light);
+}
+#discover .carousel-item .carousel-caption p {
+  font-size: 1.15rem;
+}
+/* Check out my photos */
+#goto {
+  min-height: 50vh;
+}
+#goto a.btn {
+  transition: all 0.2s linear;
+}
+#goto a.btn:hover {
+  color: var(--red) !important;
+  background: var(--light) !important;
+}
+/* Media queries */
+@media (max-width: 1500px) {
+  #hello h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1210px) {
+  #hello h1 {
+    font-size: 2.2rem;
+  }
+}
