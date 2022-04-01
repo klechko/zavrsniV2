@@ -8,10 +8,6 @@ body {
 main h3 {
   background: rgba(0, 0, 0, 0.35);
   width: max-content;
-  transition: all 0.3s linear;
-}
-main h3:hover {
-  transform: scale(0.99);
 }
 main a.btn {
   transition: all 0.2s linear;
