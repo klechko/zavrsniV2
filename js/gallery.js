@@ -1,5 +1,4 @@
 const thumbs = document.getElementById('thumbs');
-const modalTitle = document.querySelector('.modal-title');
 const carouselInner = document.querySelector('.carousel-inner');
 const photos = [
     'ax',
