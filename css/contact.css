@@ -12,7 +12,7 @@ main div {
   transition: all 0.3s linear;
 }
 main h3:hover {
-  transform: scale(0.99);
+  color: var(--red) !important;
 }
 main div a i {
   color: var(--light);

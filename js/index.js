@@ -1,7 +1,7 @@
 const index = window;
 const division = document.querySelector('main > div');
 
-const sensitivity = 25;
+const sensitivity = 10;
 const media = window.matchMedia('(min-width: 1200px)');
 
 const parallax = (e, media) => {

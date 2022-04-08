@@ -1,0 +1,31 @@
+#thumbs img {
+    cursor: pointer;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-inner {
+    border: 3px solid var(--black);
+    box-sizing: border-box;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.modal-footer .btn {
+    border-radius: 0;
+    color: var(--light);
+    background-color: var(--dark);
+    transition: all 0.3s linear;
+}
+
+.modal-footer .btn:hover {
+    color: var(--dark);
+    background-color: var(--red);
+}
