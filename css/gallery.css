@@ -10,16 +10,7 @@
     box-sizing: border-box;
 }
 
-.modal-content {
-    border-radius: 0;
-}
-
-.modal-footer {
-    border-top: 0;
-}
-
 .modal-footer .btn {
-    border-radius: 0;
     color: var(--light);
     background-color: var(--dark);
     transition: all 0.3s linear;

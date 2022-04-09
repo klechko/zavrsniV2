@@ -8,13 +8,19 @@ body {
 main h3 {
   background: rgba(0, 0, 0, 0.35);
   width: max-content;
+  transition: all 0.2s linear;
+}
+main h3:hover {
+  color: var(--red);
 }
 main a.btn {
+  color: var(--light);
+  background-color: var(--red);
   transition: all 0.2s linear;
 }
 main a.btn:hover {
-  color: var(--red) !important;
-  background: var(--dark) !important;
+  color: var(--red);
+  background: var(--dark);
 }
 /* Media queries */
 @media(min-width: 1921px) {
