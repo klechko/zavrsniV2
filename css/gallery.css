@@ -17,6 +17,6 @@
 }
 
 .modal-footer .btn:hover {
-    color: var(--dark);
+    /* color: var(--dark); */
     background-color: var(--red);
 }
